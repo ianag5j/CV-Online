@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV - Ian Gonzalez</title>
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!-- Material Icons Google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Lenguajes Icons -->
+    <link rel="stylesheet" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/round.css">
+    <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"> -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm sticky-top" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand mb-0 h1" href="#navbar">Ian Gonzalez</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#direccion">Dirección</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="/producto/nuevo" class="nav-link">Ingresar Producto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!-- info personal y foto -->
+    <div class="row m-0" id="personalData">
+        <div class="col-lg-4  border-bottom p-0 personalData">
+            <img src="foto.png" alt="Ian" class="img-fluid">
+        </div>
+        <div class="col-lg-8  border-bottom personalData pt-2 text-center">
+            <div style="margin: auto;">
+                <h1 style="color: #1cade4;">Ian Gonzalez</h1>
+                <p class="text-center">
+                    <i class="material-icons align-middle">phone</i> 15 2655-8320
+                </p>
+                <div class="btn-group" style="width: 100%;">
+                    <a href="tel:+54-11-2655-8320" class="btn btn-outline-primary" style="width: 50%;">Llamar</a>
+                    <a class="btn btn-outline-primary" style="width: 50%;" href="https://api.whatsapp.com/send?phone=541126558320">WhatsApp</a>
+                </div>
+                <p class="text-center" style="padding-top:16px;">
+                    <i class="material-icons align-middle">email</i> 
+                    ian.gonzalez@outlook.com.ar
+                </p>
+                <a href="mailto:ian.gonzalez@outlook.com.ar" class="btn btn-outline-primary btn-block">Enviar Email</a>
+                <p style="padding-top:16px;" class="text-center">
+                    <i class="material-icons align-middle">location_on</i> 
+                    Charlone 2028
+                </p>
+                <p class="text-center">
+                    <i class="material-icons align-text-bottom">cake</i> 
+                    05 junio 2000
+                </p>
+                <p class="text-center">
+                    <i class="material-icons align-text-bottom">perm_identity</i> 
+                    42.649.626
+                </p> 
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid bg-white p-1">
+        <!-- <div class="row container-fluid bg-transparent"> -->
+        <div class="card-columns container-fluid bg-transparent">
+            <!-- info personal -->
+            <!-- <div class="card">
+                <h4 class="card-header text-center bg-transparent">Ian Gonzalez</h4>
+                <img src="foto.png" alt="foto perfil" class="card-img-top">
+                <div class="card-body">
+                    <div class="card-text">
+                        <p class="text-center"><i class="material-icons align-middle">phone</i> 15 2655-8320</p>
+                        <div class="btn-group" style="width: 100%;">
+                            <a href="tel:+54-11-2655-8320" class="btn btn-outline-primary" style="width: 50%;">Llamar</a>
+                            <a class="btn btn-outline-primary" style="width: 50%;" href="https://api.whatsapp.com/send?phone=541126558320">WhatsApp</a>
+                        </div>
+
+                        <p class="text-center" style="padding-top:16px;"><i class="material-icons align-middle">email</i> ian.gonzalez@outlook.com.ar</p>
+                        <a href="mailto:ian.gonzalez@outlook.com.ar" class="btn btn-outline-primary btn-block">Enviar Email</a>
+                        <p style="padding-top:16px;" class="text-center"><i class="material-icons align-middle">location_on</i> Charlone 2028</p>
+                    </div>
+                </div>
+            </div> -->
+            <!-- Educacion -->
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title"><i class="material-icons align-bottom">school</i> Educacion</h4>
+                    <div class="card-text">
+                        <span class="text-primary">Técnico en Computación</span> | ESC. TEC. N° 36 "Almirante Guillermo Brown" <br>
+                        2013-2018 
+                    </div>
+                </div>
+            </div>
+            <!-- Cursos -->
+            <div class="card">
+                <div class="card-body" style="padding-bottom: 10px;">
+                    <h4 class="card-title"><i class="material-icons align-bottom">class</i> Cursos</h4>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-group-item-action">Aprendé Programando nivel 2, 04/2018 – 07/2018</li>
+                    <li class="list-group-item list-group-item-action">IT Essentials 5.0 - Cisco Networking Academy, 2018</li>
+                    <li class="list-group-item list-group-item-action">Aprendé Programando nivel 1, 04/2017 – 07/2017</li>
+                </ul>
+            </div>
+            <!-- experiencia -->
+            <div class="card">
+                <div class="card-body" style="padding-bottom: 10px;">
+                    <h4 class="card-title"><i class="material-icons align-bottom">work</i> Experiencia</h4>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-group-item-action"><span class="text-primary">Soporte en Sistemas</span> | Teatro municipal General San Martin 09/2018 – 11/2018 Pasantía</li>
+                </ul>
+            </div>
+            <!-- reconocimintos y premios -->
+            <div class="card">
+                <div class="card-body" style="padding-bottom: 10px;">
+                    <h4 class="card-title"><i class="material-icons align-bottom">bookmark</i> Reconocimintos y Premios</h4>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <a href="http://www.inet.edu.ar/index.php/proyectos-mencionados-y-destacados-en-las-olimpiadas-nacionales-de-programacion-computacion-e-informatica/" target="_blank" class="list-group-item list-group-item-action"><span class="text-primary">Mención Honorifica</span>, Olimpiadas de Programación estancia Nacional 2018, INET</a>
+                    <li class="list-group-item list-group-item-action"><span class="text-primary">Mención Honorifica</span>, Olimpiadas de Programación estancia jurisdiccional CABA 2018, INET</li>
+                </ul>
+            </div>
+            <!-- Charlas -->
+            <div class="card">
+                <div class="card-body" style="padding-bottom: 10px;">
+                    <h4 class="card-title"><i class="material-icons align-bottom">question_answer</i> Charlas y Conferencias</h4>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <a href="https://www.tedxriodelaplata.org/eventos/tedxr%C3%ADodelaplata-2017" target="_blank" class="list-group-item list-group-item-action">TEDxRíodelaPlata 2017</a>
+                    <a href="https://www.buenosaires.gob.ar/noticias/hackaton-desafios-cientificos-2017" target="_blank" class="list-group-item list-group-item-action">Hackatón desafíos científicos 2017</a>
+                    <a href="http://ar.socialab.com/challenges/soluciones-futuro-2017" target="_blank" class="list-group-item list-group-item-action">Soluciones para el futuro Samsung y Socialab 2017</a>
+                </ul>
+            </div>
+            <!-- Portoflio -->
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title"><i class="material-icons align-bottom">folder</i> Portfolio</h4>
+                    <p class="card-text">
+                        Icono GitHub
+                        <br>
+                        Pagina Sertek <i class="material-icons align-bottom">link</i> <i class="material-icons align-bottom">info</i>
+                    </p>
+                </div>
+            </div>
+            <!-- lenguajes -->
+            <!-- <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title"><i class="material-icons align-bottom">code</i> Lenguajes/ecnologías/Frameworks</h4>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-group-item-action"><i class="devicon-html5-plain colored"></i> <i class="material-icons align-bottom">star_rate</i></li>
+                    <li class="list-group-item list-group-item-action"><i class="devicon-css3-plain colored"></i></li>
+                    <li class="list-group-item list-group-item-action"><i class="devicon-javascript-plain colored"></i></li>
+                    <li class="list-group-item list-group-item-action"><i class="devicon-bootstrap-plain colored"></i></li>
+                    <li class="list-group-item list-group-item-action"><i class="devicon-mysql-plain colored"></i></li>
+                    <li class="list-group-item list-group-item-action"><i class="devicon-mongodb-plain colored"></i></li>
+                    <li class="list-group-item list-group-item-action"><i class="devicon-php-plain colored"></i></li>
+                    <li class="list-group-item list-group-item-action"><i class="devicon-nodejs-plain colored"></i></li>
+                    <li class="list-group-item list-group-item-action"><i class="devicon-codeigniter-plain-wordmark colored"></i></li>
+                    <li class="list-group-item list-group-item-action"><i class="devicon-express-original-wordmark colored"></i></li>
+                    <li class="list-group-item list-group-item-action"><i class="devicon-visualstudio-plain colored"></i></li>
+
+                </ul>
+            </div> -->
+        </div>
+    </div>
+
+    <script>
+        $('.card').hover(   
+            function() {$(this).addClass('shadow')},
+            function() {$(this).removeClass('shadow')}
+        );
+
+
+        // $(document).ready(()=>{
+        //     var alturaInicio = $("#personalData").height();
+        //     console.log(alturaInicio);
+        //     var escrolleo = false;
+        //     var navbarPosInicial = $('.navbar').offset().top;
+
+            
+        //     // Cuando Scrollea cambia un flag a true indicando que escrolleo
+        //     $(window).scroll(()=>{
+        //         escrolleo = true; 
+        //     });
+
+        //     let top;
+        //     // cada 5 milisegundos se ejecuta 
+        //     setInterval(()=>{
+        //         if(escrolleo) {
+        //             escrolleo = false;
+        //             top = $(window).scrollTop(); 
+
+        //             if ($('.navbar').offset().top < top) {
+        //                 $('.navbar').addClass('sticky'); 
+        //             } else {
+        //                 if(navbarPosInicial > top) {
+        //                     $('.navbar').removeClass('sticky');
+        //                 }
+        //             }
+        //         }
+        //     },5)
+        // });
+
+    </script>
+</body>
+</html>
