@@ -35,8 +35,8 @@ a[title="Hosted on free web hosting 000webhost.com. Host your own website for FR
     border-color: #1cade4!important;
 }
 
-#personalData p {
-    /* margin-bottom: 0; */
+#personalData i {
+    color: #1cade4!important;
 }
 
 /* .card-columns {
