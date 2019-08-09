@@ -39,6 +39,11 @@ a[title="Hosted on free web hosting 000webhost.com. Host your own website for FR
     color: #1cade4!important;
 }
 
+.foto-personal{
+    height: 100%;
+    max-width: 100%;
+}
+
 /* .card-columns {
     @include media-breakpoint-only(lg) {
       column-count: 4;
