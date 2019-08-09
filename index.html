@@ -10,45 +10,25 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
-    </script>
     <!-- custom css -->
     <link rel="stylesheet" href="css/estilo.css">
-    <!-- Material Icons Google -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/round.css">
     <!-- Lenguajes Icons -->
     <link rel="stylesheet"
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+
+    <!-- Shard -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/shards.min.css?v=3.0.0">
+    <link rel="stylesheet" href="css/shards-extras.min.css?version=3.0.0">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm sticky-top text-center" id="navbar">
+    <nav class="navbar-expand-lg navbar-light shadow-sm sticky-top text-center" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand mb-0 h1" href="#navbar">Ian Gonzalez</a>
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#direccion">Dirección</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="/producto/nuevo" class="nav-link">Ingresar Producto</a>
-                    </li>
-                </ul>
-            </div>
-        </div> -->
+        </div>
     </nav>
     <!-- info personal y foto -->
     <div class="row m-0" id="personalData">
@@ -59,58 +39,42 @@
             <div style="margin: auto;width: 100%;">
                 <h1 style="color: #1cade4;">Ian Gonzalez</h1>
                 <p class="text-center">
-                    <i class="material-icons align-middle">phone</i> 15 2655-8320
+                    <i class="fa fa-phone mr-1"></i>
+                    15 2655-8320
                 </p>
                 <div class="btn-group" style="width: 100%;">
-                    <a href="tel:+54-11-2655-8320" class="btn btn-outline-primary" style="width: 50%;">Llamar</a>
-                    <a class="btn btn-outline-primary" style="width: 50%;"
-                        href="https://api.whatsapp.com/send?phone=541126558320">WhatsApp</a>
+                    <a href="tel:+54-11-2655-8320" class="btn btn-outline-primary btn-pill" style="width: 50%;">Llamar</a>
+                    <a class="btn btn-outline-primary btn-pill" style="width: 50%;" href="https://api.whatsapp.com/send?phone=541126558320">
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                        WhatsApp
+                    </a>
                 </div>
                 <p class="text-center" style="padding-top:16px;">
-                    <i class="material-icons align-middle">email</i>
+                    <i class="fa fa-envelope mr-1"></i>
                     ian.gonzalez@outlook.com.ar
                 </p>
-                <a href="mailto:ian.gonzalez@outlook.com.ar" class="btn btn-outline-primary btn-block">Enviar Email</a>
+                <a href="mailto:ian.gonzalez@outlook.com.ar" class="btn btn-outline-primary btn-block btn-pill">Enviar Email</a>
                 <p style="padding-top:16px;" class="text-center">
-                    <i class="material-icons align-middle">location_on</i>
+                    <i class="fa fa-map-marker mr-1"></i>
                     Charlone 2028
                 </p>
                 <p class="text-center">
-                    <i class="material-icons align-text-bottom">cake</i>
+                    <i class="fa fa-birthday-cake mr-1"></i>
                     05 junio 2000
                 </p>
                 <p class="text-center">
-                    <i class="material-icons align-text-bottom">perm_identity</i>
+                    <i class="fa fa-id-card mr-1" aria-hidden="true"></i>
                     42.649.626
                 </p>
             </div>
         </div>
     </div>
     <div class="jumbotron jumbotron-fluid bg-white p-1">
-        <!-- <div class="row container-fluid bg-transparent"> -->
         <div class="card-columns container-fluid bg-transparent">
-            <!-- info personal -->
-            <!-- <div class="card">
-                <h4 class="card-header text-center bg-transparent">Ian Gonzalez</h4>
-                <img src="foto.png" alt="foto perfil" class="card-img-top">
-                <div class="card-body">
-                    <div class="card-text">
-                        <p class="text-center"><i class="material-icons align-middle">phone</i> 15 2655-8320</p>
-                        <div class="btn-group" style="width: 100%;">
-                            <a href="tel:+54-11-2655-8320" class="btn btn-outline-primary" style="width: 50%;">Llamar</a>
-                            <a class="btn btn-outline-primary" style="width: 50%;" href="https://api.whatsapp.com/send?phone=541126558320">WhatsApp</a>
-                        </div>
-
-                        <p class="text-center" style="padding-top:16px;"><i class="material-icons align-middle">email</i> ian.gonzalez@outlook.com.ar</p>
-                        <a href="mailto:ian.gonzalez@outlook.com.ar" class="btn btn-outline-primary btn-block">Enviar Email</a>
-                        <p style="padding-top:16px;" class="text-center"><i class="material-icons align-middle">location_on</i> Charlone 2028</p>
-                    </div>
-                </div>
-            </div> -->
             <!-- Educacion -->
             <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title"><i class="material-icons align-bottom">school</i> Educacion</h4>
+                <div class="card-body pb-1">
+                    <h4 class="card-title"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Educación</h4>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item list-group-item-action">
@@ -128,8 +92,8 @@
             </div>
             <!-- experiencia -->
             <div class="card">
-                <div class="card-body" style="padding-bottom: 10px;">
-                    <h4 class="card-title"><i class="material-icons align-bottom">work</i> Experiencia</h4>
+                <div class="card-body pb-1">
+                    <h4 class="card-title"><i class="fa fa-briefcase" aria-hidden="true"></i> Experiencia</h4>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item list-group-item-action"><span class="text-primary">
@@ -144,8 +108,8 @@
             </div>
             <!-- Cursos -->
             <div class="card">
-                <div class="card-body" style="padding-bottom: 10px;">
-                    <h4 class="card-title"><i class="material-icons align-bottom">class</i> Cursos</h4>
+                <div class="card-body pb-1">
+                    <h4 class="card-title"><i class="fa fa-book" aria-hidden="true"></i> Cursos</h4>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item list-group-item-action">Aprendé Programando nivel 2, 04/2018 – 07/2018
@@ -158,8 +122,8 @@
             </div>
             <!-- reconocimintos y premios -->
             <div class="card">
-                <div class="card-body" style="padding-bottom: 10px;">
-                    <h4 class="card-title"><i class="material-icons align-bottom">bookmark</i> Reconocimintos y Premios
+                <div class="card-body pb-1">
+                    <h4 class="card-title"><i class="fa fa-trophy" aria-hidden="true"></i> Reconocimintos y Premios
                     </h4>
                 </div>
                 <ul class="list-group list-group-flush">
@@ -173,8 +137,8 @@
             </div>
             <!-- Charlas -->
             <div class="card">
-                <div class="card-body" style="padding-bottom: 10px;">
-                    <h4 class="card-title"><i class="material-icons align-bottom">question_answer</i> Charlas y
+                <div class="card-body pb-1">
+                    <h4 class="card-title"><i class="fa fa-comments" aria-hidden="true"></i> Charlas y
                         Conferencias</h4>
                 </div>
                 <ul class="list-group list-group-flush">
@@ -189,19 +153,18 @@
             </div>
             <!-- Portoflio -->
             <div class="card">
-                <div class="card-body" style="padding-bottom: 10px;">
-                    <h4 class="card-title"><i class="material-icons align-bottom">folder</i> Portfolio</h4>
+                <div class="card-body pb-1">
+                    <h4 class="card-title"><i class="fa fa-folder" aria-hidden="true"></i> Portfolio</h4>
                 </div>
                 <ul class="list-group list-group-flush">
                     <a href="http://github.com/ianag5j" target="_blank"
                         class="list-group-item list-group-item-action"><i class="devicon-github-plain"></i> GitHub</a>
-                    <!-- <a href="https://www.buenosaires.gob.ar/noticias/hackaton-desafios-cientificos-2017" target="_blank" class="list-group-item list-group-item-action">Sertek</a> -->
                 </ul>
             </div>
             <!-- lenguajes -->
             <div class="card">
-                <div class="card-body" style="padding-bottom: 10px;">
-                    <h4 class="card-title"><i class="material-icons align-bottom">code</i> Lenguajes</h4>
+                <div class="card-body pb-1">
+                    <h4 class="card-title"><i class="fa fa-code" aria-hidden="true"></i> Lenguajes</h4>
                 </div>
                 <table class="table table-bordered text-center mx-auto" style="margin-bottom: 0px;">
                     <tbody>
@@ -209,50 +172,79 @@
                             <td>
                                 <i class="devicon-html5-plain colored"></i> HTML
                             </td>
-                            <td> ***** </td>
+                            <td>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
                         </tr>
                         <tr>
                             <td>
                                 <i class="devicon-css3-plain colored"></i> CSS
                             </td>
-                            <td> *** </td>
-
+                            <td>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i> 
+                            </td>
                         </tr>
                         <tr>
                             <td>
                                 <i class="devicon-javascript-plain colored"></i> Javascript
                             </td>
-                            <td> **** </td>
+                            <td>
+                                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> 
+                            </td>
                         </tr>
                         <tr>
                             <td>
                                 <i class="devicon-bootstrap-plain colored"></i> Bootstrap
                             </td>
-                            <td> *** </td>
+                            <td>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i> 
+                            </td>
                         </tr>
                         <tr>
                             <td>
                                 <i class="devicon-mysql-plain colored"></i> MySql
                             </td>
-                            <td> *** </td>
+                            <td>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
                         </tr>
                         <tr>
                             <td>
                                 <i class="devicon-mongodb-plain colored"></i> MongoDB
                             </td>
-                            <td> * </td>
+                            <td>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
                         </tr>
                         <tr>
                             <td>
                                 <i class="devicon-php-plain colored"></i> PHP
                             </td>
-                            <td> *** </td>
+                            <td>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i> 
+                            </td>
                         </tr>
                         <tr>
                             <td>
                                 <i class="devicon-nodejs-plain colored"></i> NodeJS
                             </td>
-                            <td> *** </td>
+                            <td>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </td>
                         </tr>
 
 
@@ -271,37 +263,6 @@
                 $(this).removeClass('shadow')
             }
         );
-
-
-        // $(document).ready(()=>{
-        //     var alturaInicio = $("#personalData").height();
-        //     console.log(alturaInicio);
-        //     var escrolleo = false;
-        //     var navbarPosInicial = $('.navbar').offset().top;
-
-
-        //     // Cuando Scrollea cambia un flag a true indicando que escrolleo
-        //     $(window).scroll(()=>{
-        //         escrolleo = true; 
-        //     });
-
-        //     let top;
-        //     // cada 5 milisegundos se ejecuta 
-        //     setInterval(()=>{
-        //         if(escrolleo) {
-        //             escrolleo = false;
-        //             top = $(window).scrollTop(); 
-
-        //             if ($('.navbar').offset().top < top) {
-        //                 $('.navbar').addClass('sticky'); 
-        //             } else {
-        //                 if(navbarPosInicial > top) {
-        //                     $('.navbar').removeClass('sticky');
-        //                 }
-        //             }
-        //         }
-        //     },5)
-        // });
     </script>
 </body>
 
