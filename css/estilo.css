@@ -33,6 +33,7 @@ a[title="Hosted on free web hosting 000webhost.com. Host your own website for FR
 
 .personalData {
     border-color: #1cade4!important;
+    display: flex;
 }
 
 #personalData i {
@@ -42,6 +43,13 @@ a[title="Hosted on free web hosting 000webhost.com. Host your own website for FR
 .foto-personal{
     /* height: 100%; */
     max-width: 100%;
+    margin: auto;
+}
+
+.icon-link {
+    position: absolute;
+    right: 10px;
+    bottom: 13px;
 }
 
 /* .card-columns {
